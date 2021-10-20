@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3222309263C71C70012C432 /* GaugeApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3222308263C71C70012C432 /* GaugeApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A322230E263C71C80012C432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A322230D263C71C80012C432 /* Assets.xcassets */; };
+		A3222315263C71C80012C432 /* GaugeApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A3222314263C71C80012C432 /* GaugeApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A322231A263C71C80012C432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3222319263C71C80012C432 /* ContentView.swift */; };
+		A322231C263C71C80012C432 /* GaugeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322231B263C71C80012C432 /* GaugeAppApp.swift */; };
+		A322231E263C71C80012C432 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322231D263C71C80012C432 /* ComplicationController.swift */; };
+		A3222320263C71C90012C432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A322231F263C71C90012C432 /* Assets.xcassets */; };
+		A3222323263C71C90012C432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3222322263C71C90012C432 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A322230A263C71C70012C432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32222FE263C71C60012C432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3222307263C71C70012C432;
+			remoteInfo = "GaugeApp WatchKit App";
+		};
+		A3222316263C71C80012C432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32222FE263C71C60012C432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3222313263C71C80012C432;
+			remoteInfo = "GaugeApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A322232A263C71C90012C432 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A3222315263C71C80012C432 /* GaugeApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A322232E263C71C90012C432 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A3222309263C71C70012C432 /* GaugeApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3222304263C71C60012C432 /* GaugeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaugeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3222308263C71C70012C432 /* GaugeApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GaugeApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A322230D263C71C80012C432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A322230F263C71C80012C432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3222314263C71C80012C432 /* GaugeApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GaugeApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3222319263C71C80012C432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A322231B263C71C80012C432 /* GaugeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeAppApp.swift; sourceTree = "<group>"; };
+		A322231D263C71C80012C432 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A322231F263C71C90012C432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3222322263C71C90012C432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3222324263C71C90012C432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3222311263C71C80012C432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32222FD263C71C60012C432 = {
+			isa = PBXGroup;
+			children = (
+				A322230C263C71C70012C432 /* GaugeApp WatchKit App */,
+				A3222318263C71C80012C432 /* GaugeApp WatchKit Extension */,
+				A3222305263C71C60012C432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3222305263C71C60012C432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3222304263C71C60012C432 /* GaugeApp.app */,
+				A3222308263C71C70012C432 /* GaugeApp WatchKit App.app */,
+				A3222314263C71C80012C432 /* GaugeApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A322230C263C71C70012C432 /* GaugeApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A322230D263C71C80012C432 /* Assets.xcassets */,
+				A322230F263C71C80012C432 /* Info.plist */,
+			);
+			path = "GaugeApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		A3222318263C71C80012C432 /* GaugeApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3222319263C71C80012C432 /* ContentView.swift */,
+				A322231B263C71C80012C432 /* GaugeAppApp.swift */,
+				A322231D263C71C80012C432 /* ComplicationController.swift */,
+				A322231F263C71C90012C432 /* Assets.xcassets */,
+				A3222324263C71C90012C432 /* Info.plist */,
+				A3222321263C71C90012C432 /* Preview Content */,
+			);
+			path = "GaugeApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A3222321263C71C90012C432 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3222322263C71C90012C432 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3222303263C71C60012C432 /* GaugeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A322232F263C71C90012C432 /* Build configuration list for PBXNativeTarget "GaugeApp" */;
+			buildPhases = (
+				A3222302263C71C60012C432 /* Resources */,
+				A322232E263C71C90012C432 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A322230B263C71C70012C432 /* PBXTargetDependency */,
+			);
+			name = GaugeApp;
+			productName = GaugeApp;
+			productReference = A3222304263C71C60012C432 /* GaugeApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A3222307263C71C70012C432 /* GaugeApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A322232B263C71C90012C432 /* Build configuration list for PBXNativeTarget "GaugeApp WatchKit App" */;
+			buildPhases = (
+				A3222306263C71C70012C432 /* Resources */,
+				A322232A263C71C90012C432 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3222317263C71C80012C432 /* PBXTargetDependency */,
+			);
+			name = "GaugeApp WatchKit App";
+			productName = "GaugeApp WatchKit App";
+			productReference = A3222308263C71C70012C432 /* GaugeApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A3222313263C71C80012C432 /* GaugeApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3222327263C71C90012C432 /* Build configuration list for PBXNativeTarget "GaugeApp WatchKit Extension" */;
+			buildPhases = (
+				A3222310263C71C80012C432 /* Sources */,
+				A3222311263C71C80012C432 /* Frameworks */,
+				A3222312263C71C80012C432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GaugeApp WatchKit Extension";
+			productName = "GaugeApp WatchKit Extension";
+			productReference = A3222314263C71C80012C432 /* GaugeApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32222FE263C71C60012C432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A3222303263C71C60012C432 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A3222307263C71C70012C432 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A3222313263C71C80012C432 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A3222301263C71C60012C432 /* Build configuration list for PBXProject "GaugeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32222FD263C71C60012C432;
+			productRefGroup = A3222305263C71C60012C432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3222303263C71C60012C432 /* GaugeApp */,
+				A3222307263C71C70012C432 /* GaugeApp WatchKit App */,
+				A3222313263C71C80012C432 /* GaugeApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3222302263C71C60012C432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3222306263C71C70012C432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A322230E263C71C80012C432 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3222312263C71C80012C432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3222323263C71C90012C432 /* Preview Assets.xcassets in Resources */,
+				A3222320263C71C90012C432 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3222310263C71C80012C432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A322231A263C71C80012C432 /* ContentView.swift in Sources */,
+				A322231C263C71C80012C432 /* GaugeAppApp.swift in Sources */,
+				A322231E263C71C80012C432 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A322230B263C71C70012C432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3222307263C71C70012C432 /* GaugeApp WatchKit App */;
+			targetProxy = A322230A263C71C70012C432 /* PBXContainerItemProxy */;
+		};
+		A3222317263C71C80012C432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3222313263C71C80012C432 /* GaugeApp WatchKit Extension */;
+			targetProxy = A3222316263C71C80012C432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3222325263C71C90012C432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3222326263C71C90012C432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3222328263C71C90012C432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GaugeApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3824GTL53A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GaugeApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.bhanderi.GaugeApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		A3222329263C71C90012C432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GaugeApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3824GTL53A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GaugeApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.bhanderi.GaugeApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		A322232C263C71C90012C432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3824GTL53A;
+				IBSC_MODULE = GaugeApp_WatchKit_Extension;
+				INFOPLIST_FILE = "GaugeApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.bhanderi.GaugeApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		A322232D263C71C90012C432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3824GTL53A;
+				IBSC_MODULE = GaugeApp_WatchKit_Extension;
+				INFOPLIST_FILE = "GaugeApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.bhanderi.GaugeApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		A3222330263C71C90012C432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3824GTL53A;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.bhanderi.GaugeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A3222331263C71C90012C432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3824GTL53A;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.bhanderi.GaugeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3222301263C71C60012C432 /* Build configuration list for PBXProject "GaugeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3222325263C71C90012C432 /* Debug */,
+				A3222326263C71C90012C432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3222327263C71C90012C432 /* Build configuration list for PBXNativeTarget "GaugeApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3222328263C71C90012C432 /* Debug */,
+				A3222329263C71C90012C432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A322232B263C71C90012C432 /* Build configuration list for PBXNativeTarget "GaugeApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A322232C263C71C90012C432 /* Debug */,
+				A322232D263C71C90012C432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A322232F263C71C90012C432 /* Build configuration list for PBXNativeTarget "GaugeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3222330263C71C90012C432 /* Debug */,
+				A3222331263C71C90012C432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32222FE263C71C60012C432 /* Project object */;
+}
